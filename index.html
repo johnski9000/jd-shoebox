@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Registraion Form</title>
+  </head>
+  <body>
+    <form action="#" class="form">
+      <h1 class="text-center">Customize Shoe Box</h1>
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title="Design"
+        ></div>
+        <div class="progress-step" data-title="Design"></div>
+        <div class="progress-step" data-title="Design"></div>
+        <div class="progress-step" data-title="Info"></div>
+      </div>
+
+      <!-- Steps -->
+      <div class="form-step form-step-active">
+        <div class="input-group">
+            
+            <img src="./1.png" alt="" class="selected">
+        </div>
+        <div class="input-group">
+            <img src="./1.png" alt="" >
+
+        </div>
+        <div class="">
+          <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group">
+            <img src="./2.png" alt="" style="width: 150px">
+        </div>
+        <div class="input-group">
+            <img src="./2.png" alt="" style="width: 150px">
+
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <div class="form-step" >
+        <div class="input-group">
+            <img src="./3.png" alt="" style="width: 150px">
+        </div>
+        <div class="input-group">
+            <img src="./3.png" alt="" style="width: 150px">
+
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <a href="#" class="btn btn-next">Next</a>
+        </div>
+      </div>
+      <div class="form-step">
+        <div class="input-group-final">
+          <label for="fullName">Full Name</label>
+          <input type="text" name="fullName" id="fullName" />
+        </div>
+        <div class="input-group-final">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+          />
+        </div>
+        <div class="btns-group">
+          <a href="#" class="btn btn-prev">Previous</a>
+          <input type="submit" value="Submit" class="btn" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
