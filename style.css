@@ -161,20 +161,35 @@
     padding: 10px 10px;
     width: 150px ;
   }
-.selected {
+
+input[type=checkbox] {
+  display:none;
+}
+.image-1 + label {
+  background:url("./1.png") no-repeat;
+}
+.image-2 + label {
+  background:url("./2.png") no-repeat;
+}
+input[type=checkbox] + label {
+  display:inline-block;
+  padding: 0 0 0 0px;
+  height: 125px;
+  width: 125px;;
+  background-size: 80%;
+}
+
+input[type=checkbox]:checked + label {
+  height: 125px;
+  width: 125px;
+  display:inline-block;
+  background-size: 100%;
+}
+/* .selected {
     background: grey;
     width: 60%;
     margin: 20px auto;
     animation-duration: 3s;
   animation-name: slidein;
-  }
+  }*/
 
-  @keyframes slidein {
-    from {
-      background: white;
-    }
-  
-    to {
-      background: grey;
-    }
-  }

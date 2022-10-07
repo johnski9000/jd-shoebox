@@ -44,5 +44,20 @@ function updateProgressbar() {
 
   progress.style.width =
     ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + "%";
-}
+};
 
+
+$(document).ready(function(){
+
+  $('.checkoption').click(function() {
+     $('.checkoption').not(this).prop('checked', false);
+  });
+
+});
+$(document).ready(function(){
+
+  $('.checkoption-2').click(function() {
+     $('.checkoption-2').not(this).prop('checked', false);
+  });
+
+});
