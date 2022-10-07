@@ -171,6 +171,9 @@ input[type=checkbox] {
 .image-2 + label {
   background:url("./2.png") no-repeat;
 }
+.image-3 + label {
+  background:url("./3.png") no-repeat;
+}
 input[type=checkbox] + label {
   display:inline-block;
   padding: 0 0 0 0px;
@@ -185,11 +188,17 @@ input[type=checkbox]:checked + label {
   display:inline-block;
   background-size: 100%;
 }
-/* .selected {
-    background: grey;
-    width: 60%;
-    margin: 20px auto;
-    animation-duration: 3s;
-  animation-name: slidein;
-  }*/
 
+
+h1 {
+  font-size: 1.6rem
+}
+#shoebox {
+  background-image: url("./nks-box.png");
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  width: 80%;
+  height: 130px;
+  margin: 0 auto;
+}
